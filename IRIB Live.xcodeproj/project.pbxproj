@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB40B4341BD6ECA300C11395 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB40B4331BD6ECA300C11395 /* main.m */; };
+		CB40B4371BD6ECA300C11395 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB40B4361BD6ECA300C11395 /* AppDelegate.m */; };
+		CB40B43D1BD6ECA300C11395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB40B43B1BD6ECA300C11395 /* Main.storyboard */; };
+		CB40B43F1BD6ECA300C11395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB40B43E1BD6ECA300C11395 /* Assets.xcassets */; };
+		CB40B44A1BD6ECA300C11395 /* IRIB_LiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB40B4491BD6ECA300C11395 /* IRIB_LiveTests.m */; };
+		CB40B4551BD6ECA300C11395 /* IRIB_LiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB40B4541BD6ECA300C11395 /* IRIB_LiveUITests.m */; };
+		CB40B4651BD6F0A300C11395 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB40B4641BD6F0A300C11395 /* HomeViewController.m */; };
+		CB40B4681BD6F10900C11395 /* HomeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB40B4671BD6F10900C11395 /* HomeViewCell.m */; };
+		CB40B46C1BD6F94300C11395 /* UIFont+Core.m in Sources */ = {isa = PBXBuildFile; fileRef = CB40B46B1BD6F94300C11395 /* UIFont+Core.m */; };
+		CB40B4721BD6F96A00C11395 /* IRAN-Sans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB40B46D1BD6F96A00C11395 /* IRAN-Sans-Black.ttf */; };
+		CB40B4731BD6F96A00C11395 /* IRAN-Sans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB40B46E1BD6F96A00C11395 /* IRAN-Sans-Bold.ttf */; };
+		CB40B4741BD6F96A00C11395 /* IRAN-Sans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB40B46F1BD6F96A00C11395 /* IRAN-Sans-Light.ttf */; };
+		CB40B4751BD6F96A00C11395 /* IRAN-Sans-Ultra-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB40B4701BD6F96A00C11395 /* IRAN-Sans-Ultra-Light.ttf */; };
+		CB40B4761BD6F96A00C11395 /* IRAN-Sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB40B4711BD6F96A00C11395 /* IRAN-Sans.ttf */; };
+		CB40B47B1BD70BC500C11395 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB40B47A1BD70BC500C11395 /* AVKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB40B4461BD6ECA300C11395 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB40B4271BD6ECA300C11395 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB40B42E1BD6ECA300C11395;
+			remoteInfo = "IRIB Live";
+		};
+		CB40B4511BD6ECA300C11395 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB40B4271BD6ECA300C11395 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB40B42E1BD6ECA300C11395;
+			remoteInfo = "IRIB Live";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB40B42F1BD6ECA300C11395 /* IRIB Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IRIB Live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB40B4331BD6ECA300C11395 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB40B4351BD6ECA300C11395 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB40B4361BD6ECA300C11395 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB40B43C1BD6ECA300C11395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB40B43E1BD6ECA300C11395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB40B4401BD6ECA300C11395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB40B4451BD6ECA300C11395 /* IRIB LiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IRIB LiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB40B4491BD6ECA300C11395 /* IRIB_LiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRIB_LiveTests.m; sourceTree = "<group>"; };
+		CB40B44B1BD6ECA300C11395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB40B4501BD6ECA300C11395 /* IRIB LiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IRIB LiveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB40B4541BD6ECA300C11395 /* IRIB_LiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRIB_LiveUITests.m; sourceTree = "<group>"; };
+		CB40B4561BD6ECA300C11395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB40B4631BD6F0A300C11395 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = HomeView/HomeViewController.h; sourceTree = "<group>"; };
+		CB40B4641BD6F0A300C11395 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = HomeView/HomeViewController.m; sourceTree = "<group>"; };
+		CB40B4661BD6F10900C11395 /* HomeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewCell.h; path = HomeView/HomeViewCell.h; sourceTree = "<group>"; };
+		CB40B4671BD6F10900C11395 /* HomeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewCell.m; path = HomeView/HomeViewCell.m; sourceTree = "<group>"; };
+		CB40B46A1BD6F94300C11395 /* UIFont+Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Core.h"; sourceTree = "<group>"; };
+		CB40B46B1BD6F94300C11395 /* UIFont+Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Core.m"; sourceTree = "<group>"; };
+		CB40B46D1BD6F96A00C11395 /* IRAN-Sans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRAN-Sans-Black.ttf"; sourceTree = "<group>"; };
+		CB40B46E1BD6F96A00C11395 /* IRAN-Sans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRAN-Sans-Bold.ttf"; sourceTree = "<group>"; };
+		CB40B46F1BD6F96A00C11395 /* IRAN-Sans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRAN-Sans-Light.ttf"; sourceTree = "<group>"; };
+		CB40B4701BD6F96A00C11395 /* IRAN-Sans-Ultra-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRAN-Sans-Ultra-Light.ttf"; sourceTree = "<group>"; };
+		CB40B4711BD6F96A00C11395 /* IRAN-Sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRAN-Sans.ttf"; sourceTree = "<group>"; };
+		CB40B47A1BD70BC500C11395 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB40B42C1BD6ECA300C11395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB40B47B1BD70BC500C11395 /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB40B4421BD6ECA300C11395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB40B44D1BD6ECA300C11395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB40B4261BD6ECA300C11395 = {
+			isa = PBXGroup;
+			children = (
+				CB40B47A1BD70BC500C11395 /* AVKit.framework */,
+				CB40B4311BD6ECA300C11395 /* IRIB Live */,
+				CB40B4481BD6ECA300C11395 /* IRIB LiveTests */,
+				CB40B4531BD6ECA300C11395 /* IRIB LiveUITests */,
+				CB40B4301BD6ECA300C11395 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB40B4301BD6ECA300C11395 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB40B42F1BD6ECA300C11395 /* IRIB Live.app */,
+				CB40B4451BD6ECA300C11395 /* IRIB LiveTests.xctest */,
+				CB40B4501BD6ECA300C11395 /* IRIB LiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB40B4311BD6ECA300C11395 /* IRIB Live */ = {
+			isa = PBXGroup;
+			children = (
+				CB40B4351BD6ECA300C11395 /* AppDelegate.h */,
+				CB40B4361BD6ECA300C11395 /* AppDelegate.m */,
+				CB40B4691BD6F92B00C11395 /* Categories */,
+				CB40B4631BD6F0A300C11395 /* HomeViewController.h */,
+				CB40B4641BD6F0A300C11395 /* HomeViewController.m */,
+				CB40B4661BD6F10900C11395 /* HomeViewCell.h */,
+				CB40B4671BD6F10900C11395 /* HomeViewCell.m */,
+				CB40B43B1BD6ECA300C11395 /* Main.storyboard */,
+				CB40B43E1BD6ECA300C11395 /* Assets.xcassets */,
+				CB40B4401BD6ECA300C11395 /* Info.plist */,
+				CB40B4321BD6ECA300C11395 /* Supporting Files */,
+			);
+			path = "IRIB Live";
+			sourceTree = "<group>";
+		};
+		CB40B4321BD6ECA300C11395 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB40B4771BD6F96D00C11395 /* IranSans */,
+				CB40B4331BD6ECA300C11395 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB40B4481BD6ECA300C11395 /* IRIB LiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB40B4491BD6ECA300C11395 /* IRIB_LiveTests.m */,
+				CB40B44B1BD6ECA300C11395 /* Info.plist */,
+			);
+			path = "IRIB LiveTests";
+			sourceTree = "<group>";
+		};
+		CB40B4531BD6ECA300C11395 /* IRIB LiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB40B4541BD6ECA300C11395 /* IRIB_LiveUITests.m */,
+				CB40B4561BD6ECA300C11395 /* Info.plist */,
+			);
+			path = "IRIB LiveUITests";
+			sourceTree = "<group>";
+		};
+		CB40B4691BD6F92B00C11395 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CB40B46A1BD6F94300C11395 /* UIFont+Core.h */,
+				CB40B46B1BD6F94300C11395 /* UIFont+Core.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		CB40B4771BD6F96D00C11395 /* IranSans */ = {
+			isa = PBXGroup;
+			children = (
+				CB40B46D1BD6F96A00C11395 /* IRAN-Sans-Black.ttf */,
+				CB40B46E1BD6F96A00C11395 /* IRAN-Sans-Bold.ttf */,
+				CB40B46F1BD6F96A00C11395 /* IRAN-Sans-Light.ttf */,
+				CB40B4701BD6F96A00C11395 /* IRAN-Sans-Ultra-Light.ttf */,
+				CB40B4711BD6F96A00C11395 /* IRAN-Sans.ttf */,
+			);
+			name = IranSans;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB40B42E1BD6ECA300C11395 /* IRIB Live */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB40B4591BD6ECA300C11395 /* Build configuration list for PBXNativeTarget "IRIB Live" */;
+			buildPhases = (
+				CB40B42B1BD6ECA300C11395 /* Sources */,
+				CB40B42C1BD6ECA300C11395 /* Frameworks */,
+				CB40B42D1BD6ECA300C11395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IRIB Live";
+			productName = "IRIB Live";
+			productReference = CB40B42F1BD6ECA300C11395 /* IRIB Live.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB40B4441BD6ECA300C11395 /* IRIB LiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB40B45C1BD6ECA300C11395 /* Build configuration list for PBXNativeTarget "IRIB LiveTests" */;
+			buildPhases = (
+				CB40B4411BD6ECA300C11395 /* Sources */,
+				CB40B4421BD6ECA300C11395 /* Frameworks */,
+				CB40B4431BD6ECA300C11395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB40B4471BD6ECA300C11395 /* PBXTargetDependency */,
+			);
+			name = "IRIB LiveTests";
+			productName = "IRIB LiveTests";
+			productReference = CB40B4451BD6ECA300C11395 /* IRIB LiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB40B44F1BD6ECA300C11395 /* IRIB LiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB40B45F1BD6ECA300C11395 /* Build configuration list for PBXNativeTarget "IRIB LiveUITests" */;
+			buildPhases = (
+				CB40B44C1BD6ECA300C11395 /* Sources */,
+				CB40B44D1BD6ECA300C11395 /* Frameworks */,
+				CB40B44E1BD6ECA300C11395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB40B4521BD6ECA300C11395 /* PBXTargetDependency */,
+			);
+			name = "IRIB LiveUITests";
+			productName = "IRIB LiveUITests";
+			productReference = CB40B4501BD6ECA300C11395 /* IRIB LiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB40B4271BD6ECA300C11395 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				TargetAttributes = {
+					CB40B42E1BD6ECA300C11395 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CB40B4441BD6ECA300C11395 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CB40B42E1BD6ECA300C11395;
+					};
+					CB40B44F1BD6ECA300C11395 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CB40B42E1BD6ECA300C11395;
+					};
+				};
+			};
+			buildConfigurationList = CB40B42A1BD6ECA300C11395 /* Build configuration list for PBXProject "IRIB Live" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB40B4261BD6ECA300C11395;
+			productRefGroup = CB40B4301BD6ECA300C11395 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB40B42E1BD6ECA300C11395 /* IRIB Live */,
+				CB40B4441BD6ECA300C11395 /* IRIB LiveTests */,
+				CB40B44F1BD6ECA300C11395 /* IRIB LiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB40B42D1BD6ECA300C11395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB40B4731BD6F96A00C11395 /* IRAN-Sans-Bold.ttf in Resources */,
+				CB40B4761BD6F96A00C11395 /* IRAN-Sans.ttf in Resources */,
+				CB40B43F1BD6ECA300C11395 /* Assets.xcassets in Resources */,
+				CB40B4721BD6F96A00C11395 /* IRAN-Sans-Black.ttf in Resources */,
+				CB40B4741BD6F96A00C11395 /* IRAN-Sans-Light.ttf in Resources */,
+				CB40B43D1BD6ECA300C11395 /* Main.storyboard in Resources */,
+				CB40B4751BD6F96A00C11395 /* IRAN-Sans-Ultra-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB40B4431BD6ECA300C11395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB40B44E1BD6ECA300C11395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB40B42B1BD6ECA300C11395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB40B46C1BD6F94300C11395 /* UIFont+Core.m in Sources */,
+				CB40B4371BD6ECA300C11395 /* AppDelegate.m in Sources */,
+				CB40B4681BD6F10900C11395 /* HomeViewCell.m in Sources */,
+				CB40B4341BD6ECA300C11395 /* main.m in Sources */,
+				CB40B4651BD6F0A300C11395 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB40B4411BD6ECA300C11395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB40B44A1BD6ECA300C11395 /* IRIB_LiveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB40B44C1BD6ECA300C11395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB40B4551BD6ECA300C11395 /* IRIB_LiveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB40B4471BD6ECA300C11395 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB40B42E1BD6ECA300C11395 /* IRIB Live */;
+			targetProxy = CB40B4461BD6ECA300C11395 /* PBXContainerItemProxy */;
+		};
+		CB40B4521BD6ECA300C11395 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB40B42E1BD6ECA300C11395 /* IRIB Live */;
+			targetProxy = CB40B4511BD6ECA300C11395 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB40B43B1BD6ECA300C11395 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB40B43C1BD6ECA300C11395 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB40B4571BD6ECA300C11395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		CB40B4581BD6ECA300C11395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB40B45A1BD6ECA300C11395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "IRIB Live/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alfa.IRIB-Live";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB40B45B1BD6ECA300C11395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "IRIB Live/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alfa.IRIB-Live";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB40B45D1BD6ECA300C11395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "IRIB LiveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alfa.IRIB-LiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IRIB Live.app/IRIB Live";
+			};
+			name = Debug;
+		};
+		CB40B45E1BD6ECA300C11395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "IRIB LiveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alfa.IRIB-LiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IRIB Live.app/IRIB Live";
+			};
+			name = Release;
+		};
+		CB40B4601BD6ECA300C11395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "IRIB LiveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alfa.IRIB-LiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "IRIB Live";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CB40B4611BD6ECA300C11395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "IRIB LiveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alfa.IRIB-LiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "IRIB Live";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB40B42A1BD6ECA300C11395 /* Build configuration list for PBXProject "IRIB Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB40B4571BD6ECA300C11395 /* Debug */,
+				CB40B4581BD6ECA300C11395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB40B4591BD6ECA300C11395 /* Build configuration list for PBXNativeTarget "IRIB Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB40B45A1BD6ECA300C11395 /* Debug */,
+				CB40B45B1BD6ECA300C11395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB40B45C1BD6ECA300C11395 /* Build configuration list for PBXNativeTarget "IRIB LiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB40B45D1BD6ECA300C11395 /* Debug */,
+				CB40B45E1BD6ECA300C11395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB40B45F1BD6ECA300C11395 /* Build configuration list for PBXNativeTarget "IRIB LiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB40B4601BD6ECA300C11395 /* Debug */,
+				CB40B4611BD6ECA300C11395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB40B4271BD6ECA300C11395 /* Project object */;
+}

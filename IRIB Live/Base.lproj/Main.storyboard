@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="XvF-AU-O3C">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="Osf-3w-u7k">
+            <objects>
+                <collectionViewController storyboardIdentifier="Home" title="Home" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XvF-AU-O3C" customClass="HomeViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Pb5-08-3NC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="100" minimumInteritemSpacing="48" id="JcZ-Ji-Bev">
+                            <size key="itemSize" width="548" height="308"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="90" minY="100" maxX="90" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="Cell" reuseIdentifier="Cell" id="Azu-Ez-94f" customClass="HomeViewCell">
+                                <rect key="frame" x="90" y="100" width="548" height="308"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="548" height="308"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tv1bg" adjustsImageWhenAncestorFocused="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nlc-IH-s2x">
+                                            <rect key="frame" x="0.0" y="0.0" width="548" height="308"/>
+                                            <animations/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tv1" translatesAutoresizingMaskIntoConstraints="NO" id="ArK-mR-H7w">
+                                            <rect key="frame" x="195" y="41" width="159" height="150"/>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="159" id="E9i-cR-ImB"/>
+                                                <constraint firstAttribute="height" constant="150" id="jD1-HK-FmA"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="شبکه" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rU3-LT-ZKv">
+                                            <rect key="frame" x="161" y="223" width="227" height="51"/>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="51" id="emr-6z-chc"/>
+                                                <constraint firstAttribute="width" constant="227" id="j98-55-7hh"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <animations/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <animations/>
+                                <color key="backgroundColor" white="0.4310883620689655" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Nlc-IH-s2x" firstAttribute="centerY" secondItem="Azu-Ez-94f" secondAttribute="centerY" id="7Q8-GU-MIP"/>
+                                    <constraint firstItem="Nlc-IH-s2x" firstAttribute="height" secondItem="Azu-Ez-94f" secondAttribute="height" id="HcE-em-Wn8"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="rU3-LT-ZKv" secondAttribute="bottom" constant="26" id="Kaf-58-6UE"/>
+                                    <constraint firstItem="rU3-LT-ZKv" firstAttribute="centerX" secondItem="Azu-Ez-94f" secondAttribute="centerX" id="RJq-ne-Xf7"/>
+                                    <constraint firstItem="ArK-mR-H7w" firstAttribute="top" secondItem="Azu-Ez-94f" secondAttribute="topMargin" constant="33" id="Wad-JW-Fwr"/>
+                                    <constraint firstItem="Nlc-IH-s2x" firstAttribute="width" secondItem="Azu-Ez-94f" secondAttribute="width" id="guh-l7-Vuo"/>
+                                    <constraint firstItem="Nlc-IH-s2x" firstAttribute="centerX" secondItem="Azu-Ez-94f" secondAttribute="centerX" id="jfr-lt-J3W"/>
+                                    <constraint firstItem="ArK-mR-H7w" firstAttribute="centerX" secondItem="Azu-Ez-94f" secondAttribute="centerX" id="smk-Zp-kfA"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="backgroundImageView" destination="Nlc-IH-s2x" id="sNt-u7-XkQ"/>
+                                    <outlet property="channelLabel" destination="rU3-LT-ZKv" id="XEs-YI-u1y"/>
+                                    <outlet property="logoImageView" destination="ArK-mR-H7w" id="odi-uq-8PW"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="XvF-AU-O3C" id="fdf-zd-pMl"/>
+                            <outlet property="delegate" destination="XvF-AU-O3C" id="L32-Zv-ibm"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0co-fO-Wu1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="861" y="496"/>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="Z1r-82-7N7">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="SB8-Hf-tH1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LAM-xn-f8S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2859" y="496"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tv1" width="150" height="150"/>
+        <image name="tv1bg" width="273" height="154"/>
+    </resources>
+</document>
