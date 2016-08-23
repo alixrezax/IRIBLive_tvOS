@@ -3,7 +3,6 @@
 //  IRIB Live
 //
 //  Created by Alireza Khoddam on 10/20/15.
-//  Copyright © 2015 Farzad Nazifi. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
